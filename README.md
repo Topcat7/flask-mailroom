@@ -15,8 +15,10 @@ All commands to be run from inside the repository directory.
 ```
 $ git init                # Only necessary if this is not already a git repository
 $ heroku create
-$ git push heroku master  # If you have any changes or files to add, commit them before you push. 
+$ git push heroku master  # If you have any changes or files to add, commit them before you push.
 $ heroku addons:create heroku-postgresql:hobby-dev
 $ heroku run python setup.py
 $ heroku open
 ```
+
+heroku url: http://calm-eyrie-55078.herokuapp.com/donations/
